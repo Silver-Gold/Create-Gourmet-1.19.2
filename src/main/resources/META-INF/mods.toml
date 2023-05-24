@@ -21,7 +21,7 @@ modId="gourmet" #mandatory
 # see the associated build.gradle script for how to populate this completely automatically during a build
 version="0.0.1-1.19.2" #mandatory
  # A display name for the mod
-displayName="Create: Gourmet" #mandatory
+displayName="Create Gourmet" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://mcforge.readthedocs.io/en/latest/gettingstarted/autoupdate/
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
@@ -42,7 +42,7 @@ authors="SilverGold" #optional
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Create: Gourmet adds many new foods to craft using Vanilla ingredients and Create processing.
+Create Gourmet adds many new foods to craft using Vanilla ingredients and Create processing.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.gourmet]] #optional

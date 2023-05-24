@@ -26,6 +26,9 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.COOKED_DRUMSTICK)));
     public static final RegistryObject<Item> FRIED_CHICKEN = ITEMS.register("fried_chicken",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.FRIED_CHICKEN)));
+    //Ingredients
+    public static final RegistryObject<Item> BUTTER = ITEMS.register("butter",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.BUTTER)));
 
     public static class Foods {
         public static final FoodProperties RAW_BACON = new FoodProperties.Builder().nutrition(2).saturationMod(0.6f).meat().fast().build();
@@ -34,6 +37,7 @@ public class ModItems {
         public static final FoodProperties RAW_DRUMSTICK = new FoodProperties.Builder().nutrition(2).saturationMod(0.6f).meat().fast().build();
         public static final FoodProperties COOKED_DRUMSTICK = new FoodProperties.Builder().nutrition(6).saturationMod(1.6f).meat().fast().build();
         public static final FoodProperties FRIED_CHICKEN = new FoodProperties.Builder().nutrition(8).saturationMod(1.6f).meat().fast().build();
+        public static final FoodProperties BUTTER = new FoodProperties.Builder().nutrition(1).saturationMod(0.6f).fast().build();
     }
 
     public static void register(IEventBus eventBus) {

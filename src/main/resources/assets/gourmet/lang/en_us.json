@@ -2,6 +2,10 @@
   "item.gourmet.raw_bacon": "Raw Bacon",
   "item.gourmet.cooked_bacon": "Cooked Bacon",
   "item.gourmet.caramelized_bacon": "Caramelized Bacon",
+  "item.gourmet.raw_drumstick": "Raw Drumstick",
+  "item.gourmet.cooked_drumstick": "Cooked Drumstick",
+  "item.gourmet.fried_chicken": "Fried Chicken",
+  "item.gourmet.butter": "Butter",
 
-  "itemGroup.gourmet_tab": "Create: Gourmet"
+  "itemGroup.gourmet_tab": "Create Gourmet"
 }
