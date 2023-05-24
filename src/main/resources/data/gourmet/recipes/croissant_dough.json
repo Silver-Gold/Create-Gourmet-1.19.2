@@ -1,0 +1,62 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:dough"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "item": "gourmet:croissant_dough"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gourmet:incomplete_croissant_dough"
+        },
+        {
+          "item": "gourmet:butter"
+        }
+      ],
+      "results": [
+        {
+          "item": "gourmet:incomplete_croissant_dough"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gourmet:incomplete_croissant_dough"
+        },
+        {
+          "item": "create:dough"
+        }
+      ],
+      "results": [
+        {
+          "item": "gourmet:incomplete_croissant_dough"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gourmet:incomplete_croissant_dough"
+        }
+      ],
+      "results": [
+        {
+          "item": "gourmet:incomplete_croissant_dough"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gourmet:incomplete_croissant_dough"
+  }
+}

@@ -6,6 +6,9 @@
   "item.gourmet.cooked_drumstick": "Cooked Drumstick",
   "item.gourmet.fried_chicken": "Fried Chicken",
   "item.gourmet.butter": "Butter",
+  "item.gourmet.croissant": "Croissant",
+  "item.gourmet.croissant_dough": "Croissant Dough",
+  "item.gourmet.incomplete_croissant_dough": "Croissant Dough Layer",
 
   "itemGroup.gourmet_tab": "Create Gourmet"
 }

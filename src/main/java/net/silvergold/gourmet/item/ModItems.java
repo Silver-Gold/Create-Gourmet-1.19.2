@@ -29,6 +29,13 @@ public class ModItems {
     //Ingredients
     public static final RegistryObject<Item> BUTTER = ITEMS.register("butter",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.BUTTER)));
+    //Croissant
+    public static final RegistryObject<Item> CROISSANT_DOUGH = ITEMS.register("croissant_dough",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB)));
+    public static final RegistryObject<Item> INCOMPLETE_CROISSANT_DOUGH = ITEMS.register("incomplete_croissant_dough",
+            () -> new SequencedAssemblyItem(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB)));
+    public static final RegistryObject<Item> CROISSANT = ITEMS.register("croissant",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.CROISSANT)));
 
     public static class Foods {
         public static final FoodProperties RAW_BACON = new FoodProperties.Builder().nutrition(2).saturationMod(0.6f).meat().fast().build();
@@ -38,6 +45,7 @@ public class ModItems {
         public static final FoodProperties COOKED_DRUMSTICK = new FoodProperties.Builder().nutrition(6).saturationMod(1.6f).meat().fast().build();
         public static final FoodProperties FRIED_CHICKEN = new FoodProperties.Builder().nutrition(8).saturationMod(1.6f).meat().fast().build();
         public static final FoodProperties BUTTER = new FoodProperties.Builder().nutrition(1).saturationMod(0.6f).fast().build();
+        public static final FoodProperties CROISSANT = new FoodProperties.Builder().nutrition(8).saturationMod(1.6f).build();
     }
 
     public static void register(IEventBus eventBus) {
