@@ -23,8 +23,8 @@ public class SequencedAssemblyItem extends Item  {
                 .getFloat("Progress");
     }
 
-    //@Override
-    //public void fillItemCategory(CreativeModeTab p_150895_1_, NonNullList<ItemStack> p_150895_2_) {}
+    @Override
+    public void fillItemCategory(CreativeModeTab p_150895_1_, NonNullList<ItemStack> p_150895_2_) {}
 
     @Override
     public boolean isBarVisible(ItemStack stack) {
