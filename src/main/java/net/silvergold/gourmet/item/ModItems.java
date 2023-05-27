@@ -36,6 +36,12 @@ public class ModItems {
             () -> new SequencedAssemblyItem(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB)));
     public static final RegistryObject<Item> CROISSANT = ITEMS.register("croissant",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.CROISSANT)));
+    public static final RegistryObject<Item> SWEET_BERRY_DANISH = ITEMS.register("sweet_berry_danish",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.SWEET_BERRY_DANISH)));
+    public static final RegistryObject<Item> GLOW_BERRY_DANISH = ITEMS.register("glow_berry_danish",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.GLOW_BERRY_DANISH)));
+    public static final RegistryObject<Item> CHEESE_DANISH = ITEMS.register("cheese_danish",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.CHEESE_DANISH)));
 
     public static class Foods {
         public static final FoodProperties RAW_BACON = new FoodProperties.Builder().nutrition(2).saturationMod(0.6f).meat().fast().build();
@@ -46,6 +52,9 @@ public class ModItems {
         public static final FoodProperties FRIED_CHICKEN = new FoodProperties.Builder().nutrition(8).saturationMod(1.6f).meat().fast().build();
         public static final FoodProperties BUTTER = new FoodProperties.Builder().nutrition(1).saturationMod(0.6f).fast().build();
         public static final FoodProperties CROISSANT = new FoodProperties.Builder().nutrition(8).saturationMod(1.6f).build();
+        public static final FoodProperties SWEET_BERRY_DANISH = new FoodProperties.Builder().nutrition(8).saturationMod(1.6f).build();
+        public static final FoodProperties GLOW_BERRY_DANISH = new FoodProperties.Builder().nutrition(8).saturationMod(1.6f).build();
+        public static final FoodProperties CHEESE_DANISH = new FoodProperties.Builder().nutrition(8).saturationMod(1.6f).build();
     }
 
     public static void register(IEventBus eventBus) {
