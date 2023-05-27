@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "amount": 100,
+      "fluid": "gourmet:seed_oil"
+    },
+    {
+      "item": "gourmet:raw_drumstick"
+    },
+    {
+      "item": "create:wheat_flour"
+    }
+  ],
+  "results": [
+    {
+      "item": "gourmet:fried_chicken"
+    }
+  ]
+}

@@ -10,5 +10,7 @@
   "item.gourmet.croissant_dough": "Croissant Dough",
   "item.gourmet.incomplete_croissant_dough": "Croissant Dough Layer",
 
+  "fluid_type.gourmet.seed_oil": "Seed Oil",
+
   "itemGroup.gourmet_tab": "Create Gourmet"
 }

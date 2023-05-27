@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat_seeds"
+    }
+  ],
+  "results": [
+    {
+      "amount": 50,
+      "fluid": "gourmet:seed_oil"
+    }
+  ]
+}
