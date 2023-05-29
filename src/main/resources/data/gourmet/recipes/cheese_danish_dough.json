@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "gourmet:croissant_dough"
+    },
+    {
+      "item": "gourmet:cheese"
+    }
+  ],
+  "results": [
+    {
+      "item": "gourmet:cheese_danish_dough"
+    }
+  ]
+}

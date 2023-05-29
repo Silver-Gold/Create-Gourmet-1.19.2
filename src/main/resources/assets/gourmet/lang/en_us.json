@@ -6,14 +6,19 @@
   "item.gourmet.cooked_drumstick": "Cooked Drumstick",
   "item.gourmet.fried_chicken": "Fried Chicken",
   "item.gourmet.butter": "Butter",
+  "item.gourmet.cheese": "Cheese",
   "item.gourmet.croissant": "Croissant",
   "item.gourmet.croissant_dough": "Croissant Dough",
   "item.gourmet.incomplete_croissant_dough": "Croissant Dough Layer",
   "item.gourmet.sweet_berry_danish": "Sweet Berry Danish",
   "item.gourmet.glow_berry_danish": "Glow Berry Danish",
   "item.gourmet.cheese_danish": "Cheese Danish",
+  "item.gourmet.sweet_berry_danish_dough": "Sweet Berry Danish Dough",
+  "item.gourmet.glow_berry_danish_dough": "Glow Berry Danish Dough",
+  "item.gourmet.cheese_danish_dough": "Cheese Danish Dough",
 
   "fluid_type.gourmet.seed_oil": "Seed Oil",
+  "fluid_type.gourmet.batter": "Batter",
 
   "itemGroup.gourmet_tab": "Create Gourmet"
 }

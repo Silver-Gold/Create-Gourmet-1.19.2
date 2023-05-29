@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "gourmet:glow_berry_danish_dough"
+  },
+  "result": "gourmet:glow_berry_danish"
+}

@@ -26,14 +26,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.COOKED_DRUMSTICK)));
     public static final RegistryObject<Item> FRIED_CHICKEN = ITEMS.register("fried_chicken",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.FRIED_CHICKEN)));
-    //Ingredients
-    public static final RegistryObject<Item> BUTTER = ITEMS.register("butter",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.BUTTER)));
     //Croissant
-    public static final RegistryObject<Item> CROISSANT_DOUGH = ITEMS.register("croissant_dough",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB)));
-    public static final RegistryObject<Item> INCOMPLETE_CROISSANT_DOUGH = ITEMS.register("incomplete_croissant_dough",
-            () -> new SequencedAssemblyItem(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB)));
     public static final RegistryObject<Item> CROISSANT = ITEMS.register("croissant",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.CROISSANT)));
     public static final RegistryObject<Item> SWEET_BERRY_DANISH = ITEMS.register("sweet_berry_danish",
@@ -42,19 +35,37 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.GLOW_BERRY_DANISH)));
     public static final RegistryObject<Item> CHEESE_DANISH = ITEMS.register("cheese_danish",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.CHEESE_DANISH)));
+    //Ingredients
+    public static final RegistryObject<Item> BUTTER = ITEMS.register("butter",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.BUTTER)));
+    public static final RegistryObject<Item> CHEESE = ITEMS.register("cheese",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.CHEESE)));
+    //Doughs and Crusts
+    public static final RegistryObject<Item> CROISSANT_DOUGH = ITEMS.register("croissant_dough",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB)));
+    public static final RegistryObject<Item> SWEET_BERRY_DANISH_DOUGH = ITEMS.register("sweet_berry_danish_dough",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB)));
+    public static final RegistryObject<Item> GLOW_BERRY_DANISH_DOUGH = ITEMS.register("glow_berry_danish_dough",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB)));
+    public static final RegistryObject<Item> CHEESE_DANISH_DOUGH = ITEMS.register("cheese_danish_dough",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB)));
+    //Processed Foods
+    public static final RegistryObject<Item> INCOMPLETE_CROISSANT_DOUGH = ITEMS.register("incomplete_croissant_dough",
+            () -> new SequencedAssemblyItem(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB)));
 
     public static class Foods {
-        public static final FoodProperties RAW_BACON = new FoodProperties.Builder().nutrition(2).saturationMod(0.6f).meat().fast().build();
-        public static final FoodProperties COOKED_BACON = new FoodProperties.Builder().nutrition(6).saturationMod(1.6f).meat().fast().build();
-        public static final FoodProperties CARAMELIZED_BACON = new FoodProperties.Builder().nutrition(8).saturationMod(1.6f).meat().fast().build();
-        public static final FoodProperties RAW_DRUMSTICK = new FoodProperties.Builder().nutrition(2).saturationMod(0.6f).meat().fast().build();
-        public static final FoodProperties COOKED_DRUMSTICK = new FoodProperties.Builder().nutrition(6).saturationMod(1.6f).meat().fast().build();
-        public static final FoodProperties FRIED_CHICKEN = new FoodProperties.Builder().nutrition(8).saturationMod(1.6f).meat().fast().build();
-        public static final FoodProperties BUTTER = new FoodProperties.Builder().nutrition(1).saturationMod(0.6f).fast().build();
-        public static final FoodProperties CROISSANT = new FoodProperties.Builder().nutrition(8).saturationMod(1.6f).build();
-        public static final FoodProperties SWEET_BERRY_DANISH = new FoodProperties.Builder().nutrition(8).saturationMod(1.6f).build();
-        public static final FoodProperties GLOW_BERRY_DANISH = new FoodProperties.Builder().nutrition(8).saturationMod(1.6f).build();
-        public static final FoodProperties CHEESE_DANISH = new FoodProperties.Builder().nutrition(8).saturationMod(1.6f).build();
+        public static final FoodProperties RAW_BACON = new FoodProperties.Builder().nutrition(2).saturationMod(0.25f).meat().fast().build();
+        public static final FoodProperties COOKED_BACON = new FoodProperties.Builder().nutrition(6).saturationMod(0.8f).meat().fast().build();
+        public static final FoodProperties CARAMELIZED_BACON = new FoodProperties.Builder().nutrition(8).saturationMod(0.8f).meat().fast().build();
+        public static final FoodProperties RAW_DRUMSTICK = new FoodProperties.Builder().nutrition(2).saturationMod(0.25f).meat().fast().build();
+        public static final FoodProperties COOKED_DRUMSTICK = new FoodProperties.Builder().nutrition(6).saturationMod(0.8f).meat().fast().build();
+        public static final FoodProperties FRIED_CHICKEN = new FoodProperties.Builder().nutrition(8).saturationMod(0.8f).meat().fast().build();
+        public static final FoodProperties BUTTER = new FoodProperties.Builder().nutrition(1).saturationMod(0.25f).fast().build();
+        public static final FoodProperties CHEESE = new FoodProperties.Builder().nutrition(1).saturationMod(0.25f).fast().build();
+        public static final FoodProperties CROISSANT = new FoodProperties.Builder().nutrition(7).saturationMod(0.6f).build();
+        public static final FoodProperties SWEET_BERRY_DANISH = new FoodProperties.Builder().nutrition(9).saturationMod(0.7f).build();
+        public static final FoodProperties GLOW_BERRY_DANISH = new FoodProperties.Builder().nutrition(9).saturationMod(0.7f).build();
+        public static final FoodProperties CHEESE_DANISH = new FoodProperties.Builder().nutrition(8).saturationMod(0.6f).build();
     }
 
     public static void register(IEventBus eventBus) {
