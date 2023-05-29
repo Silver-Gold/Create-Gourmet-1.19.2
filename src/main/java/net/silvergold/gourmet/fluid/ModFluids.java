@@ -18,9 +18,15 @@ public class ModFluids {
             () -> new ForgeFlowingFluid.Source(ModFluids.SEED_OIL_FLUID_PROPERTIES));
     public static final RegistryObject<FlowingFluid> FLOWING_SEED_OIL = FLUIDS.register("flowing_seed_oil",
             () -> new ForgeFlowingFluid.Flowing(ModFluids.SEED_OIL_FLUID_PROPERTIES));
+    public static final RegistryObject<FlowingFluid> SOURCE_BATTER = FLUIDS.register("batter",
+            () -> new ForgeFlowingFluid.Source(ModFluids.BATTER_FLUID_PROPERTIES));
+    public static final RegistryObject<FlowingFluid> FLOWING_BATTER = FLUIDS.register("flowing_batter",
+            () -> new ForgeFlowingFluid.Flowing(ModFluids.BATTER_FLUID_PROPERTIES));
 
     public static final ForgeFlowingFluid.Properties SEED_OIL_FLUID_PROPERTIES = new ForgeFlowingFluid.Properties(
-            ModFluidTypes.SEED_OIL_FLUID_TYPE, SOURCE_SEED_OIL, FLOWING_SEED_OIL); //ADD .bucket(ModItems.SOAP_WATER_BUCKET)
+            ModFluidTypes.SEED_OIL_FLUID_TYPE, SOURCE_SEED_OIL, FLOWING_SEED_OIL); //ADD .bucket(ModItems.SEED_OIL_BUCKET)
+    public static final ForgeFlowingFluid.Properties BATTER_FLUID_PROPERTIES = new ForgeFlowingFluid.Properties(
+            ModFluidTypes.BATTER_FLUID_TYPE, SOURCE_BATTER, FLOWING_BATTER); //ADD .bucket(ModItems.SEED_OIL_BUCKET)
 
 
 

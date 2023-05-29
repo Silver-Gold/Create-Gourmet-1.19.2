@@ -10,14 +10,23 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class ModFluidTypes {
+    //Seed Oil
     public static final ResourceLocation SEED_OIL_STILL_RL = new ResourceLocation("block/water_still");
     public static final ResourceLocation SEED_OIL_FLOWING_RL = new ResourceLocation("block/water_flow");
     public static final ResourceLocation SEED_OIL_RL = new ResourceLocation(Gourmet.MOD_ID, "misc/seed_oil_overlay");
+    //Batter
+    public static final ResourceLocation Batter_STILL_RL = new ResourceLocation("block/water_still");
+    public static final ResourceLocation Batter_FLOWING_RL = new ResourceLocation("block/water_flow");
+    public static final ResourceLocation Batter_RL = new ResourceLocation(Gourmet.MOD_ID, "misc/seed_oil_overlay");
 
     public static final DeferredRegister<FluidType> FLUID_TYPES =
             DeferredRegister.create(ForgeRegistries.Keys.FLUID_TYPES, Gourmet.MOD_ID);
 
+    //Seed Oil
     public static final RegistryObject<FluidType> SEED_OIL_FLUID_TYPE = register("seed_oil",
+            FluidType.Properties.create().lightLevel(2).density(15).viscosity(5));
+    //Batter
+    public static final RegistryObject<FluidType> BATTER_FLUID_TYPE = register("batter",
             FluidType.Properties.create().lightLevel(2).density(15).viscosity(5));
 
     private static RegistryObject<FluidType> register(String name, FluidType.Properties properties) {
