@@ -1,0 +1,65 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "gourmet:flatcake"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "gourmet:flatcake_stack"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gourmet:incomplete_flatcake_stack"
+        },
+        {
+          "item": "gourmet:flatcake"
+        }
+      ],
+      "results": [
+        {
+          "item": "gourmet:incomplete_flatcake_stack"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gourmet:incomplete_flatcake_stack"
+        },
+        {
+          "item": "gourmet:flatcake"
+        }
+      ],
+      "results": [
+        {
+          "item": "gourmet:incomplete_flatcake_stack"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gourmet:incomplete_flatcake_stack"
+        },
+        {
+          "item": "create:chocolate_glazed_berries"
+        }
+      ],
+      "results": [
+        {
+          "item": "gourmet:incomplete_flatcake_stack"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gourmet:incomplete_flatcake_stack"
+  }
+}

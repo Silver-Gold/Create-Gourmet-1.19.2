@@ -35,6 +35,11 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.GLOW_BERRY_DANISH)));
     public static final RegistryObject<Item> CHEESE_DANISH = ITEMS.register("cheese_danish",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.CHEESE_DANISH)));
+    //Flatcakes
+    public static final RegistryObject<Item> FLATCAKE = ITEMS.register("flatcake",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.FLATCAKE)));
+    public static final RegistryObject<Item> FLATCAKE_STACK = ITEMS.register("flatcake_stack",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.FLATCAKE_STACK)));
     //Ingredients
     public static final RegistryObject<Item> BUTTER = ITEMS.register("butter",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.BUTTER)));
@@ -44,13 +49,17 @@ public class ModItems {
     public static final RegistryObject<Item> CROISSANT_DOUGH = ITEMS.register("croissant_dough",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB)));
     public static final RegistryObject<Item> SWEET_BERRY_DANISH_DOUGH = ITEMS.register("sweet_berry_danish_dough",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB)));
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> GLOW_BERRY_DANISH_DOUGH = ITEMS.register("glow_berry_danish_dough",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB)));
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CHEESE_DANISH_DOUGH = ITEMS.register("cheese_danish_dough",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> FLATCAKE_BATTER = ITEMS.register("flatcake_batter",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB)));
     //Processed Foods
     public static final RegistryObject<Item> INCOMPLETE_CROISSANT_DOUGH = ITEMS.register("incomplete_croissant_dough",
+            () -> new SequencedAssemblyItem(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB)));
+    public static final RegistryObject<Item> INCOMPLETE_FLATCAKE_STACK = ITEMS.register("incomplete_flatcake_stack",
             () -> new SequencedAssemblyItem(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB)));
 
     public static class Foods {
@@ -66,6 +75,8 @@ public class ModItems {
         public static final FoodProperties SWEET_BERRY_DANISH = new FoodProperties.Builder().nutrition(9).saturationMod(0.7f).build();
         public static final FoodProperties GLOW_BERRY_DANISH = new FoodProperties.Builder().nutrition(9).saturationMod(0.7f).build();
         public static final FoodProperties CHEESE_DANISH = new FoodProperties.Builder().nutrition(8).saturationMod(0.6f).build();
+        public static final FoodProperties FLATCAKE = new FoodProperties.Builder().nutrition(8).saturationMod(0.6f).build();
+        public static final FoodProperties FLATCAKE_STACK = new FoodProperties.Builder().nutrition(8).saturationMod(0.6f).build();
     }
 
     public static void register(IEventBus eventBus) {

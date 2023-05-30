@@ -17,6 +17,11 @@
   "item.gourmet.glow_berry_danish_dough": "Glow Berry Danish Dough",
   "item.gourmet.cheese_danish_dough": "Cheese Danish Dough",
 
+  "item.gourmet.flatcake": "Flatcake",
+  "item.gourmet.incomplete_flatcake_stack": "Incomplete Flatcake Stack",
+  "item.gourmet.flatcake_stack": "Flatcake Stack",
+  "item.gourmet.flatcake_batter": "Flatcake Batter",
+
   "fluid_type.gourmet.seed_oil": "Seed Oil",
   "fluid_type.gourmet.batter": "Batter",
 
