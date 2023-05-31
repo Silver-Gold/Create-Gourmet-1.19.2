@@ -17,13 +17,25 @@
   "item.gourmet.glow_berry_danish_dough": "Glow Berry Danish Dough",
   "item.gourmet.cheese_danish_dough": "Cheese Danish Dough",
 
+  "item.gourmet.southern_breakfast": "Southern Breakfast",
+
   "item.gourmet.flatcake": "Flatcake",
   "item.gourmet.incomplete_flatcake_stack": "Incomplete Flatcake Stack",
   "item.gourmet.flatcake_stack": "Flatcake Stack",
   "item.gourmet.flatcake_batter": "Flatcake Batter",
+  "item.gourmet.waffle": "Waffle",
+  "item.gourmet.waffle_batter": "Waffle Batter",
+  "item.gourmet.waffle_stack": "Waffle Stack",
+  "item.gourmet.incomplete_waffle_stack": "Incomplete Waffle Stack",
+  "item.gourmet.french_toast_stick": "French Toast Stick",
+  "item.gourmet.toasted_french_toast_stick": "Toasted French Toast Stick",
+  "item.gourmet.french_toast": "French Toast",
+  "item.gourmet.fried_egg": "Fried Egg",
 
   "fluid_type.gourmet.seed_oil": "Seed Oil",
+  "item.gourmet.seed_oil_bottle": "Seed Oil Bottle",
   "fluid_type.gourmet.batter": "Batter",
+  "item.gourmet.batter_bucket": "Batter Bucket",
 
   "itemGroup.gourmet_tab": "Create Gourmet"
 }

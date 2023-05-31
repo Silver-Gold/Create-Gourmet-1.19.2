@@ -1,0 +1,66 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "gourmet:waffle"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "gourmet:waffle_stack"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gourmet:incomplete_waffle_stack"
+        },
+        {
+          "item": "gourmet:waffle"
+        }
+      ],
+      "results": [
+        {
+          "item": "gourmet:incomplete_waffle_stack"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "gourmet:incomplete_waffle_stack"
+        },
+        {
+          "amount": 100,
+          "fluidTag": "forge:honey"
+        }
+      ],
+      "results": [
+        {
+          "item": "gourmet:incomplete_waffle_stack"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gourmet:incomplete_waffle_stack"
+        },
+        {
+          "item": "gourmet:butter"
+        }
+      ],
+      "results": [
+        {
+          "item": "gourmet:incomplete_waffle_stack"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gourmet:incomplete_waffle_stack"
+  }
+}

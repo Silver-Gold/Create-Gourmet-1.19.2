@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "W": {
+      "item": "gourmet:waffle_stack"
+    },
+    "E": {
+      "item": "gourmet:fried_egg"
+    },
+    "F": {
+      "item": "gourmet:fried_chicken"
+    },
+    "C": {
+      "item": "gourmet:caramelized_bacon"
+    }
+  },
+  "pattern": [
+    " F ",
+    "CWE"
+  ],
+  "result": {
+    "item": "gourmet:southern_breakfast"
+  }
+}

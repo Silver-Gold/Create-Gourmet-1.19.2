@@ -26,7 +26,7 @@ public class ModFluids {
     public static final ForgeFlowingFluid.Properties SEED_OIL_FLUID_PROPERTIES = new ForgeFlowingFluid.Properties(
             ModFluidTypes.SEED_OIL_FLUID_TYPE, SOURCE_SEED_OIL, FLOWING_SEED_OIL); //ADD .bucket(ModItems.SEED_OIL_BUCKET)
     public static final ForgeFlowingFluid.Properties BATTER_FLUID_PROPERTIES = new ForgeFlowingFluid.Properties(
-            ModFluidTypes.BATTER_FLUID_TYPE, SOURCE_BATTER, FLOWING_BATTER); //ADD .bucket(ModItems.BATTER_BUCKET)
+            ModFluidTypes.BATTER_FLUID_TYPE, SOURCE_BATTER, FLOWING_BATTER).bucket(ModItems.BATTER_BUCKET);
 
 
 

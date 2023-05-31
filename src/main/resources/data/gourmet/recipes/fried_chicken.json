@@ -1,6 +1,6 @@
 {
   "type": "create:mixing",
-  "heatRequirement": "none",
+  "heatRequirement": "heated",
   "ingredients": [
     {
       "amount": 100,

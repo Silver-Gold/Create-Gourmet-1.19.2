@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "gourmet:flatcake_batter"
+    },
+    {
+      "item": "create:andesite_bars"
+    }
+  ],
+  "keepHeldItem": true,
+  "results": [
+    {
+      "item": "gourmet:waffle_batter"
+    }
+  ]
+}
