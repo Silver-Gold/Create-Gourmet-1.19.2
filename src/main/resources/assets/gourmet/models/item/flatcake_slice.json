@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "gourmet:item/french_toast_stick"
+    "layer0": "gourmet:item/flatcake_slice"
   }
 }

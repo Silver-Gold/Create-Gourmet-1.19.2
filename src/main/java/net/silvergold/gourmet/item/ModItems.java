@@ -44,16 +44,14 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.FLATCAKE)));
     public static final RegistryObject<Item> FLATCAKE_STACK = ITEMS.register("flatcake_stack",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.FLATCAKE_STACK)));
+    //public static final RegistryObject<Item> FLATCAKE_SLICE = ITEMS.register("flatcake_slice",
+    //        () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.FLATCAKE_SLICE)));
     public static final RegistryObject<Item> WAFFLE = ITEMS.register("waffle",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.WAFFLE)));
     public static final RegistryObject<Item> WAFFLE_STACK = ITEMS.register("waffle_stack",
             () -> new Item(new Item.Properties().food(Foods.WAFFLE_STACK)));
-    public static final RegistryObject<Item> FRENCH_TOAST_STICK = ITEMS.register("french_toast_stick",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.FRENCH_TOAST_STICK)));
-    public static final RegistryObject<Item> TOASTED_FRENCH_TOAST_STICK = ITEMS.register("toasted_french_toast_stick",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.TOASTED_FRENCH_TOAST_STICK)));
-    public static final RegistryObject<Item> FRENCH_TOAST = ITEMS.register("french_toast",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.FRENCH_TOAST)));
+    //public static final RegistryObject<Item> FRENCH_TOAST = ITEMS.register("french_toast",
+    //        () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.FRENCH_TOAST)));
     //Ingredients
     public static final RegistryObject<Item> BUTTER = ITEMS.register("butter",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.BUTTER)));
@@ -104,10 +102,9 @@ public class ModItems {
         public static final FoodProperties CHEESE_DANISH = new FoodProperties.Builder().nutrition(6).saturationMod(0.7f).build();
         public static final FoodProperties FLATCAKE = new FoodProperties.Builder().nutrition(5).saturationMod(0.6f).build();
         public static final FoodProperties FLATCAKE_STACK = new FoodProperties.Builder().nutrition(8).saturationMod(0.8f).build();
+        public static final FoodProperties FLATCAKE_SLICE = new FoodProperties.Builder().nutrition(2).saturationMod(0.25f).fast().build();
         public static final FoodProperties WAFFLE = new FoodProperties.Builder().nutrition(5).saturationMod(0.6f).build();
         public static final FoodProperties WAFFLE_STACK = new FoodProperties.Builder().nutrition(8).saturationMod(0.8f).build();
-        public static final FoodProperties FRENCH_TOAST_STICK = new FoodProperties.Builder().nutrition(2).saturationMod(0.25f).fast().build();
-        public static final FoodProperties TOASTED_FRENCH_TOAST_STICK = new FoodProperties.Builder().nutrition(3).saturationMod(0.6f).fast().build();
         public static final FoodProperties FRENCH_TOAST = new FoodProperties.Builder().nutrition(3).saturationMod(0.5f).fast().build();
         public static final FoodProperties FRIED_EGG = new FoodProperties.Builder().nutrition(2).saturationMod(0.25f).fast().build();
     }

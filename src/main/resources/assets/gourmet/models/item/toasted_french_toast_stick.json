@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "gourmet:item/toasted_french_toast_stick"
-  }
-}

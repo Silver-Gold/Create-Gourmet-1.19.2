@@ -1,18 +1,30 @@
 {
   "type": "create:mixing",
+  "heatRequirement": "heated",
   "ingredients": [
     {
-      "item": "minecraft:sugar"
+      "item": "gourmet:flatcake_slice"
     },
     {
-      "item": "gourmet:butter"
+      "item": "gourmet:flatcake_slice"
     },
     {
-      "item": "gourmet:toasted_french_toast_stick"
+      "item": "gourmet:flatcake_slice"
+    },
+    {
+      "item": "gourmet:flatcake_slice"
+    },
+    {
+      "amount": 250,
+      "fluidTag": "forge:milk"
+    },
+    {
+      "item": "minecraft:egg"
     }
   ],
   "results": [
     {
+      "count": 4,
       "item": "gourmet:french_toast"
     }
   ]
