@@ -1,0 +1,40 @@
+{
+  "item.gourmet.raw_bacon":"生培根",
+  "item.gourmet.cooked_bacon":"熟培根",,
+  "item.gourmet.caramelized_bacon":"焦糖培根",
+  "item.gourmet.raw_drumstick":"生鸡腿",
+  "item.gourmet.cooked_drumstick":"熟鸡腿",
+  "item.gourmet.fried_chicken":"炸鸡",
+  "item.gourmet.butter":"黄油",
+  "item.gourmet.cheese":"奶酪",
+  "item.gourmet.croissant":"羊角面包",
+  "item.gourmet.croissant_dough":"羊角面包面团",
+  "item.gourmet.incomplete_croissant_dough":"羊角面包面团（半成品）",
+  "item.gourmet.sweet_berry_danish":"甜浆果丹麦饼",
+  "item.gourmet.glow_berry_danish":"发光浆果丹麦饼",
+  "item.gourmet.cheese_danish":"奶酪丹麦饼",
+  "item.gourmet.sweet_berry_danish_dough":"甜浆果丹麦饼面团,,
+  "item.gourmet.glow_berry_danish_dough":"发光浆果丹麦饼面团",
+  "item.gourmet.cheese_danish_dough":"奶酪丹麦饼面团",
+
+  "item.gourmet.southern_breakfast":"南方早餐",
+
+  "item.gourmet.flatcake":"扁平蛋糕",
+  "item.gourmet.incomplete_flatcake_stack":"扁平蛋糕（半成品）",
+  "item.gourmet.flatcake_stack":"扁平蛋糕堆",
+  "item.gourmet.flatcake_slice":"切块扁平蛋糕",
+  "item.gourmet.flatcake_batter":"扁平蛋糕面糊",
+  "item.gourmet.waffle":"华夫饼",
+  "item.gourmet.waffle_batter":"华夫饼面糊",
+  "item.gourmet.waffle_stack":"华夫饼堆",
+  "item.gourmet.incomplete_waffle_stack":"华夫饼堆（半成品）",
+  "item.gourmet.french_toast":"法式吐司",
+  "item.gourmet.fried_egg":"煎蛋",
+
+  "fluid_type.gourmet.seed_oil":"种子油"、
+  "item.gourmet.seed_oil_bottle":"种子油瓶"、
+  "fluid_type.gourmet.batter":"面糊"、
+  "item.gourmet.batter_bucket":"面糊桶"、
+
+  "itemGroup.gourmet_tab":"机械动力：西式佳肴"
+}
