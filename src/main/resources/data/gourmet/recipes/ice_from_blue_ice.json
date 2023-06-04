@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "amount": 250,
+      "fluid": "minecraft:water"
+    },
+    {
+      "item": "minecraft:blue_ice"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:blue_ice"
+    },
+    {
+      "item": "minecraft:ice"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "amount": 100,
+      "fluid": "minecraft:water"
+    },
+    {
+      "item": "create:wheat_flour"
+    }
+  ],
+  "results": [
+    {
+      "item": "gourmet:dumpling_wrapper"
+    }
+  ]
+}

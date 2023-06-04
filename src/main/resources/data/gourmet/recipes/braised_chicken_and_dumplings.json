@@ -1,0 +1,30 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "amount": 100,
+      "fluid": "gourmet:seed_oil"
+    },
+    {
+      "item": "gourmet:cooked_drumstick"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "gourmet:dumpling"
+    },
+    {
+      "item": "gourmet:dumpling"
+    },
+    {
+      "item": "gourmet:dumpling"
+    }
+  ],
+  "results": [
+    {
+      "item": "gourmet:braised_chicken_and_dumplings"
+    }
+  ]
+}

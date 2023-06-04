@@ -1,0 +1,78 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "gourmet:dumpling_wrapper"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 80.0,
+      "item": "gourmet:dumpling"
+    },
+    {
+      "chance": 6.0,
+      "item": "minecraft:beef"
+    },
+    {
+      "chance": 7.0,
+      "item": "minecraft:red_mushroom"
+    },
+    {
+      "chance": 7.0,
+      "item": "minecraft:brown_mushroom"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gourmet:incomplete_dumpling"
+        },
+        {
+          "item": "minecraft:beef"
+        }
+      ],
+      "results": [
+        {
+          "item": "gourmet:incomplete_dumpling"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gourmet:incomplete_dumpling"
+        },
+        {
+          "item": "minecraft:red_mushroom"
+        }
+      ],
+      "results": [
+        {
+          "item": "gourmet:incomplete_dumpling"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gourmet:incomplete_dumpling"
+        },
+        {
+          "item": "minecraft:brown_mushroom"
+        }
+      ],
+      "results": [
+        {
+          "item": "gourmet:incomplete_dumpling"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gourmet:incomplete_dumpling"
+  }
+}

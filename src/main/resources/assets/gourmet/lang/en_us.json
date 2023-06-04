@@ -18,7 +18,13 @@
   "item.gourmet.cheese_danish_dough": "Cheese Danish Dough",
 
   "item.gourmet.dumpling_wrapper": "Dumpling Wrapper",
+  "item.gourmet.incomplete_dumpling": "Incomplete Dumpling",
   "item.gourmet.dumpling": "Dumpling",
+
+  "item.gourmet.ice_cream_cone": "Ice Cream Cone",
+  "item.gourmet.chocolate_ice_cream_cone": "Chocolate Ice Cream Cone",
+  "item.gourmet.sweet_berry_ice_cream_cone": "Sweet Berry Ice Cream Cone",
+  "item.gourmet.neapolitan_ice_cream_cone": "Neapolitan Ice Cream Cone",
 
   "item.gourmet.braised_chicken_and_dumplings": "Braised Chicken and Dumplings",
   "item.gourmet.southern_breakfast": "Southern Breakfast",
