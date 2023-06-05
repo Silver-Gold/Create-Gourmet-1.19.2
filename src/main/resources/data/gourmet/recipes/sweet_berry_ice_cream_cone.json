@@ -1,0 +1,19 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "W": {
+      "item": "gourmet:waffle"
+    },
+    "S": {
+      "item": "gourmet:sweet_berry_ice_cream_scoop"
+    }
+  },
+  "pattern": [
+    "S",
+    "W"
+  ],
+  "result": {
+    "item": "gourmet:sweet_berry_ice_cream_cone"
+  }
+}

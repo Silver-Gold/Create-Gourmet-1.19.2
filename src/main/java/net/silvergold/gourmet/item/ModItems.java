@@ -82,6 +82,12 @@ public class ModItems {
     public static final RegistryObject<Item> DUMPLING_WRAPPER = ITEMS.register("dumpling_wrapper",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB)));
     //Ice Cream
+    public static final RegistryObject<Item> ICE_CREAM_SCOOP = ITEMS.register("ice_cream_scoop",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.ICE_CREAM_SCOOP)));
+    public static final RegistryObject<Item> CHOCOLATE_ICE_CREAM_SCOOP = ITEMS.register("chocolate_ice_cream_scoop",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.ICE_CREAM_SCOOP)));
+    public static final RegistryObject<Item> SWEET_BERRY_ICE_CREAM_SCOOP = ITEMS.register("sweet_berry_ice_cream_scoop",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.ICE_CREAM_SCOOP)));
     public static final RegistryObject<Item> ICE_CREAM_CONE = ITEMS.register("ice_cream_cone",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.ICE_CREAM_CONE)));
     public static final RegistryObject<Item> CHOCOLATE_ICE_CREAM_CONE = ITEMS.register("chocolate_ice_cream_cone",
@@ -131,6 +137,7 @@ public class ModItems {
         public static final FoodProperties FRENCH_TOAST = new FoodProperties.Builder().nutrition(3).saturationMod(0.5f).fast().build();
         public static final FoodProperties FRIED_EGG = new FoodProperties.Builder().nutrition(2).saturationMod(0.25f).fast().build();
         public static final FoodProperties ICE_CREAM_CONE = new FoodProperties.Builder().nutrition(3).saturationMod(0.5f).build();
+        public static final FoodProperties ICE_CREAM_SCOOP = new FoodProperties.Builder().nutrition(3).saturationMod(0.5f).build();
     }
 
     public static void register(IEventBus eventBus) {
