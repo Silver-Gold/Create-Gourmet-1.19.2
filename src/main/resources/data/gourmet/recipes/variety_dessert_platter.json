@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "C": {
+      "item": "gourmet:carrot_cake"
+    },
+    "I": {
+      "item": "gourmet:neapolitan_ice_cream_cone"
+    },
+    "S": {
+      "item": "create:sweet_roll"
+    },
+    "B": {
+      "item": "gourmet:sweet_berry_danish"
+    }
+  },
+  "pattern": [
+    "ICS",
+    " B "
+  ],
+  "result": {
+    "item": "gourmet:variety_dessert_platter"
+  }
+}
