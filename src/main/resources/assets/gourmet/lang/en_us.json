@@ -29,13 +29,17 @@
   "item.gourmet.sweet_berry_ice_cream_cone": "Sweet Berry Ice Cream Cone",
   "item.gourmet.neapolitan_ice_cream_cone": "Neapolitan Ice Cream Cone",
 
-  "item.gourmet.braised_chicken_and_dumplings": "Braised Chicken and Dumplings",
+  "item.gourmet.carrot_cake": "Carrot Cake",
+  "item.gourmet.carrot_cake_base": "Carrot Cake Base",
+  "item.gourmet.incomplete_carrot_cake": "Incomplete Carrot Cake",
+
+  "item.gourmet.variety_dessert_platter": "Variety Dessert Platter",
+  "item.gourmet.comforting_dumpling_meal": "Comforting Dumpling Meal",
   "item.gourmet.southern_breakfast": "Southern Breakfast",
 
   "item.gourmet.flatcake": "Flatcake",
   "item.gourmet.incomplete_flatcake_stack": "Incomplete Flatcake Stack",
   "item.gourmet.flatcake_stack": "Flatcake Stack",
-  "item.gourmet.flatcake_slice": "Flatcake Slice",
   "item.gourmet.flatcake_batter": "Flatcake Batter",
   "item.gourmet.waffle": "Waffle",
   "item.gourmet.waffle_batter": "Waffle Batter",

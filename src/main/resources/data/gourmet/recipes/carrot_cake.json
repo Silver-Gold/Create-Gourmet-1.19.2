@@ -1,0 +1,50 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "gourmet:carrot_cake_base"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "gourmet:carrot_cake"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "gourmet:incomplete_carrot_cake"
+        },
+        {
+          "amount": 100,
+          "fluidTag": "forge:milk"
+        }
+      ],
+      "results": [
+        {
+          "item": "gourmet:incomplete_carrot_cake"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gourmet:incomplete_carrot_cake"
+        },
+        {
+          "item": "minecraft:carrot"
+        }
+      ],
+      "results": [
+        {
+          "item": "gourmet:incomplete_carrot_cake"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gourmet:incomplete_carrot_cake"
+  }
+}
