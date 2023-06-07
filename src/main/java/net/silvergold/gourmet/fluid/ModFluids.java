@@ -13,7 +13,6 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModFluids {
     public static final DeferredRegister<Fluid> FLUIDS =
             DeferredRegister.create(ForgeRegistries.FLUIDS, Gourmet.MOD_ID);
-
     public static final RegistryObject<FlowingFluid> SOURCE_SEED_OIL = FLUIDS.register("seed_oil",
             () -> new ForgeFlowingFluid.Source(ModFluids.SEED_OIL_FLUID_PROPERTIES));
     public static final RegistryObject<FlowingFluid> FLOWING_SEED_OIL = FLUIDS.register("flowing_seed_oil",
@@ -27,7 +26,6 @@ public class ModFluids {
             ModFluidTypes.SEED_OIL_FLUID_TYPE, SOURCE_SEED_OIL, FLOWING_SEED_OIL); //ADD .bucket(ModItems.SEED_OIL_BUCKET)
     public static final ForgeFlowingFluid.Properties BATTER_FLUID_PROPERTIES = new ForgeFlowingFluid.Properties(
             ModFluidTypes.BATTER_FLUID_TYPE, SOURCE_BATTER, FLOWING_BATTER).bucket(ModItems.BATTER_BUCKET);
-
 
 
     public static void register(IEventBus eventBus) {
