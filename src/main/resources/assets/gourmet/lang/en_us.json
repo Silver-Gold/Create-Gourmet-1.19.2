@@ -48,10 +48,20 @@
   "item.gourmet.french_toast": "French Toast",
   "item.gourmet.fried_egg": "Fried Egg",
 
+  "item.gourmet.bacon_burger": "Bacon Burger",
+  "item.gourmet.big_bacon_burger_meal": "Big Bacon Burger Meal",
+  "item.gourmet.beef_patty": "Beef Patty",
+  "item.gourmet.ground_beef": "Ground Beef",
+  "item.gourmet.buns": "Buns",
+  "item.gourmet.ice_cube": "Ice Cube",
+
   "fluid_type.gourmet.seed_oil": "Seed Oil",
   "item.gourmet.seed_oil_bottle": "Seed Oil Bottle",
   "fluid_type.gourmet.batter": "Batter",
   "item.gourmet.batter_bucket": "Batter Bucket",
+
+  "item.gourmet.potato_wedge": "Potato Wedge",
+  "item.gourmet.cooked_fries": "Cooked Fries",
 
   "itemGroup.gourmet_tab": "Create Gourmet"
 }

@@ -100,6 +100,22 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.BUTTER)));
     public static final RegistryObject<Item> FRIED_EGG = ITEMS.register("fried_egg",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.FRIED_EGG)));
+    public static final RegistryObject<Item> POTATO_WEDGE = ITEMS.register("potato_wedge",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.FRIED_EGG)));
+    public static final RegistryObject<Item> COOKED_FRIES = ITEMS.register("cooked_fries",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.FRIED_EGG)));
+    public static final RegistryObject<Item> BACON_BURGER = ITEMS.register("bacon_burger",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.FRIED_EGG)));
+    public static final RegistryObject<Item> BIG_BACON_BURGER_MEAL = ITEMS.register("big_bacon_burger_meal",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.FRIED_EGG)));
+    public static final RegistryObject<Item> GROUND_BEEF = ITEMS.register("ground_beef",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.FRIED_EGG)));
+    public static final RegistryObject<Item> BEEF_PATTY = ITEMS.register("beef_patty",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.FRIED_EGG)));
+    public static final RegistryObject<Item> BUNS = ITEMS.register("buns",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.FRIED_EGG)));
+    public static final RegistryObject<Item> ICE_CUBE = ITEMS.register("ice_cube",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB)));
     //Sequenced Assembly
     public static final RegistryObject<Item> INCOMPLETE_CROISSANT_DOUGH = ITEMS.register("incomplete_croissant_dough",
             () -> new SequencedAssemblyItem(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB)));
