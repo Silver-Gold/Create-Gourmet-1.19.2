@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create:bar_of_chocolate"
+    },
+    {
+      "amount": 500,
+      "fluidTag": "forge:milk"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:ice"
+    }
+  ],
+  "results": [
+    {
+      "count": 2,
+      "item": "gourmet:chocolate_ice_cream_scoop"
+    }
+  ]
+}

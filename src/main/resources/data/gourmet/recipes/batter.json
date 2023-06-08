@@ -2,7 +2,7 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "amount": 500,
+      "amount": 1000,
       "fluidTag": "forge:milk"
     },
     {
@@ -18,9 +18,10 @@
       "item": "create:wheat_flour"
     }
   ],
+  "processingTime": 250,
   "results": [
     {
-      "amount": 500,
+      "amount": 1000,
       "fluid": "gourmet:batter"
     }
   ]
