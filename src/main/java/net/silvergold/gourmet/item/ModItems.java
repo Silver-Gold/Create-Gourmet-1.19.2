@@ -100,19 +100,21 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.BUTTER)));
     public static final RegistryObject<Item> FRIED_EGG = ITEMS.register("fried_egg",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.FRIED_EGG)));
-    public static final RegistryObject<Item> POTATO_WEDGE = ITEMS.register("potato_wedge",
+    public static final RegistryObject<Item> RAW_POTATO_FRY = ITEMS.register("raw_potato_fry",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.FRIED_EGG)));
     public static final RegistryObject<Item> COOKED_FRIES = ITEMS.register("cooked_fries",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.FRIED_EGG)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.CARAMELIZED_BACON)));
     public static final RegistryObject<Item> BACON_BURGER = ITEMS.register("bacon_burger",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.FRIED_EGG)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.SWEET_BERRY_DANISH)));
     public static final RegistryObject<Item> BIG_BACON_BURGER_MEAL = ITEMS.register("big_bacon_burger_meal",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.FRIED_EGG)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.SOUTHERN_BREAKFAST)));
     public static final RegistryObject<Item> GROUND_BEEF = ITEMS.register("ground_beef",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.FRIED_EGG)));
     public static final RegistryObject<Item> BEEF_PATTY = ITEMS.register("beef_patty",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.FRIED_EGG)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.COOKED_BACON)));
     public static final RegistryObject<Item> BUNS = ITEMS.register("buns",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.COOKED_BACON)));
+    public static final RegistryObject<Item> CARROT_SLICES = ITEMS.register("carrot_slices",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.FRIED_EGG)));
     public static final RegistryObject<Item> ICE_CUBE = ITEMS.register("ice_cube",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB)));
@@ -126,6 +128,8 @@ public class ModItems {
     public static final RegistryObject<Item> INCOMPLETE_DUMPLING = ITEMS.register("incomplete_dumpling",
             () -> new SequencedAssemblyItem(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB)));
     public static final RegistryObject<Item> INCOMPLETE_CARROT_CAKE = ITEMS.register("incomplete_carrot_cake",
+            () -> new SequencedAssemblyItem(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB)));
+    public static final RegistryObject<Item> INCOMPLETE_BURGER = ITEMS.register("incomplete_burger",
             () -> new SequencedAssemblyItem(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB)));
 
     public static class Foods {

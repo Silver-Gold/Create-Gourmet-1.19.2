@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "gourmet:ground_beef"
+  },
+  "result": "gourmet:beef_patty"
+}

@@ -1,0 +1,65 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "gourmet:buns"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "gourmet:bacon_burger"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gourmet:incomplete_burger"
+        },
+        {
+          "item": "gourmet:beef_patty"
+        }
+      ],
+      "results": [
+        {
+          "item": "gourmet:incomplete_burger"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gourmet:incomplete_burger"
+        },
+        {
+          "item": "gourmet:cheese"
+        }
+      ],
+      "results": [
+        {
+          "item": "gourmet:incomplete_burger"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gourmet:incomplete_burger"
+        },
+        {
+          "item": "gourmet:caramelized_bacon"
+        }
+      ],
+      "results": [
+        {
+          "item": "gourmet:incomplete_burger"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gourmet:incomplete_burger"
+  }
+}

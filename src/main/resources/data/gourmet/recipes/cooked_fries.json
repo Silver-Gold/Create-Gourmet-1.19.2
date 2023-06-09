@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "amount": 100,
+      "fluid": "gourmet:seed_oil"
+    },
+    {
+      "item": "gourmet:raw_potato_fry"
+    },
+    {
+      "item": "gourmet:raw_potato_fry"
+    },
+    {
+      "item": "gourmet:raw_potato_fry"
+    },
+    {
+      "item": "gourmet:raw_potato_fry"
+    }
+  ],
+  "results": [
+    {
+      "item": "gourmet:cooked_fries"
+    }
+  ]
+}

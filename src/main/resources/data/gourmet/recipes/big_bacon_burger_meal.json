@@ -1,0 +1,21 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "F": {
+      "item": "gourmet:cooked_fries"
+    },
+    "B": {
+      "item": "gourmet:bacon_burger"
+    },
+    "C": {
+      "item": "minecraft:cookie"
+    }
+  },
+  "pattern": [
+    "FBC"
+  ],
+  "result": {
+    "item": "gourmet:big_bacon_burger_meal"
+  }
+}

@@ -11,14 +11,14 @@
     },
     {
       "chance": 6.0,
-      "item": "minecraft:beef"
+      "item": "gourmet:ground_beef"
     },
     {
-      "chance": 7.0,
-      "item": "minecraft:red_mushroom"
+      "chance": 2.0,
+      "item": "gourmet:carrot_slices"
     },
     {
-      "chance": 7.0,
+      "chance": 6.0,
       "item": "minecraft:brown_mushroom"
     }
   ],
@@ -30,7 +30,7 @@
           "item": "gourmet:incomplete_dumpling"
         },
         {
-          "item": "minecraft:beef"
+          "item": "gourmet:ground_beef"
         }
       ],
       "results": [
@@ -46,7 +46,7 @@
           "item": "gourmet:incomplete_dumpling"
         },
         {
-          "item": "minecraft:red_mushroom"
+          "item": "gourmet:carrot_slices"
         }
       ],
       "results": [
