@@ -11,6 +11,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.silvergold.gourmet.Gourmet;
 import net.silvergold.gourmet.fluid.ModFluids;
+import net.silvergold.gourmet.item.specialitem.DreamyFoodItems;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -118,6 +119,12 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.FRIED_EGG)));
     public static final RegistryObject<Item> ICE_CUBE = ITEMS.register("ice_cube",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB)));
+    //
+    public static final RegistryObject<Item> BREAKFAST_SANDWICH = ITEMS.register("breakfast_sandwich",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.FRIED_EGG)));
+    public static final RegistryObject<Item> CHICKEN_SANDWICH = ITEMS.register("chicken_sandwich",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB).food(Foods.FRIED_EGG)));
+    public static final RegistryObject<Item> DREAM_ROLL = ITEMS.register("dream_roll", DreamyFoodItems::new);
     //Sequenced Assembly
     public static final RegistryObject<Item> INCOMPLETE_CROISSANT_DOUGH = ITEMS.register("incomplete_croissant_dough",
             () -> new SequencedAssemblyItem(new Item.Properties().tab(ModCreativeModeTab.GOURMET_TAB)));
