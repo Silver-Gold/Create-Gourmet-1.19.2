@@ -49,16 +49,16 @@ public class DreamEventHandler {
                 ItemStack itemStack = event.player.getUseItem();
                 if (itemStack.getItem() instanceof DreamyFoodItems) {
                     alphaTimer += 1;
-                    if (alphaTimer > 22) {
-                        if (alpha < 0.07f) {
-                            alpha += 0.0015f;
+                    if (alphaTimer > 18) {
+                        if (alpha < 0.08f) {
+                            alpha += 0.0014f;
                         }
                     }
                     System.out.println(alpha);
                 }
             } else {
                 if (alpha > 0.0f) {
-                    alpha -= 0.003f;
+                    alpha -= 0.005f;
                 } else {
                     alpha = 0.0f;
                 }
