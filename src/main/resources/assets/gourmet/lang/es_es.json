@@ -1,0 +1,57 @@
+{
+  "item.gourmet.raw_bacon": "Beicon crudo",
+  "item.gourmet.cooked_bacon": "Beicon cocido",
+  "item.gourmet.caramelized_bacon": "Beicon caramelizado",
+  "item.gourmet.raw_drumstick": "Palillo crudo",
+  "item.gourmet.cooked_drumstick": "Palillo cocido",
+  "item.gourmet.fried_chicken": "Pollo frito",
+  "item.gourmet.butter": "Mantequilla",
+  "item.gourmet.cheese": "Queso",
+  "item.gourmet.croissant": "Croissant",
+  "item.gourmet.croissant_dough": "Masa para croissant",
+  "item.gourmet.incomplete_croissant_dough": "Capa de masa de croissant",
+  "item.gourmet.sweet_berry_danish": "Danés de bayas dulces",
+  "item.gourmet.glow_berry_danish": "Danés de bayas brillantes",
+  "item.gourmet.cheese_danish": "Queso danés",
+  "item.gourmet.sweet_berry_danish_dough": "Masa danesa de bayas dulces",
+  "item.gourmet.glow_berry_danish_dough": "Masa danesa de bayas brillante",
+  "item.gourmet.cheese_danish_dough": "Masa danesa de queso",
+
+  "item.gourmet.dumpling_wrapper": "Envoltorio de bola de masa hervida",
+  "item.gourmet.incomplete_dumpling": "Bola de masa hervida incompleta",
+  "item.gourmet.dumpling": "Bola de masa hervida",
+
+  "item.gourmet.ice_cream_scoop": "Cuchara de helado",
+  "item.gourmet.chocolate_ice_cream_scoop": "Cuchara de helado de chocolate",
+  "item.gourmet.sweet_berry_ice_cream_scoop": "Cuchara de helado de bayas dulces",
+  "item.gourmet.ice_cream_cone": "Cono de helado",
+  "item.gourmet.chocolate_ice_cream_cone": "Cono de helado de chocolate",
+  "item.gourmet.sweet_berry_ice_cream_cone": "Cono de helado de bayas dulces",
+  "item.gourmet.neapolitan_ice_cream_cone": "Cono de helado napolitano",
+
+  "item.gourmet.carrot_cake": "Pastel de zanahorias",
+  "item.gourmet.carrot_cake_base": "Base de pastel de zanahorias",
+  "item.gourmet.incomplete_carrot_cake": "Pastel de zanahorias incompleto",
+
+  "item.gourmet.variety_dessert_platter": "Plato de postres variados", 
+  "item.gourmet.comforting_dumpling_meal": "Comida reconfortante de bolas de masa hervida", 
+  "item.gourmet.southern_breakfast": "Desayuno sureño",
+
+  "item.gourmet.flatcake": "Pastel plano",
+  "item.gourmet.incomplete_flatcake_stack": "Pila de pasteles planos incompleta",
+  "item.gourmet.flatcake_stack": "Pila de pasteles planos",
+  "item.gourmet.flatcake_batter": "Masa para pastel plano",
+  "item.gourmet.waffle": "Gofre",
+  "item.gourmet.waffle_batter": "Masa para gofres",
+  "item.gourmet.waffle_stack": "Pila de gofres",
+  "item.gourmet.incomplete_waffle_stack": "Pila de gofres incompleta",
+  "item.gourmet.french_toast": "Tostada francesa",
+  "item.gourmet.fried_egg": "Huevo frito",
+
+  "fluid_type.gourmet.seed_oil": "Aceite de semillas",
+  "item.gourmet.seed_oil_bottle": "Botella de aceite de semillas",
+  "fluid_type.gourmet.batter": "Masa",
+  "item.gourmet.batter_bucket": "Cubo de masa",
+
+  "itemGroup.gourmet_tab": "Create Gourmet"
+}
